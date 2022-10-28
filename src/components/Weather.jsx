@@ -14,7 +14,7 @@ const Weather = () => {
         <div>
             <h1>{dataWeather?.sys?.country}</h1>
             <h2>{dataWeather.name}</h2>
-            <img src={`http://openweathermap.org/img/wn/${dataWeather.weather?.[0].icon}@2x.png`} alt="" />
+           
             <h1>{dataWeather?.main?.feels_like}°</h1>
             <button>Change °K / °C</button>
         </div>
