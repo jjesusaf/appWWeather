@@ -1,4 +1,72 @@
 body{
-  background-color: blue;
-  color: white;
+  background-color:  #151626; 
+
+}
+
+.Weather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #232537 ;
+}
+.Weather>h1{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Weather>h2{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Weather>button{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.Weather>img{
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  background: radial-gradient(164.22% 6353.96% at 134.83% 15.18%, #F9CFA9 0%, rgba(240, 141, 147, 0.543403) 56.46%, rgba(165, 151, 193, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
