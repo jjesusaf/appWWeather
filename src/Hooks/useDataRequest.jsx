@@ -10,11 +10,6 @@ const useDataRequest = () => {
 
     useEffect(() => {
 
-        const options = {
-            enableHighAccuracy: true,
-            timeout: Infinity,
-            maximumAge: 1
-        }
 
         const success = pos => {
             const lat = pos.coords.latitude
@@ -23,11 +18,7 @@ const useDataRequest = () => {
                 .then( res => setDataWeather(res.data))
         }
 
-        function error(err) {
-
-        }
-
-        navigator.geolocation.getCurrentPosition(success, error, options);
+        navigator.geolocation.getCurrentPosition(success);
 
     }, [])
 
