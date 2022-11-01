@@ -13,7 +13,7 @@ const useDataRequest = () => {
         const options = {
             enableHighAccuracy: true,
             timeout: Infinity,
-            maximumAge: 0
+            maximumAge: 1
         }
 
         const success = pos => {
